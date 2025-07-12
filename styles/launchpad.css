@@ -1,8 +1,61 @@
-.open-sans-normal {
+.open-sans-ref {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+/* common css part  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-color{
+    background-color: #f5f7ff;
+}
+/* shared styles  */
+.btn-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 16px 26px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #9c4164;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(78, 71, 255, 0.4);
+}
+.btn-primary-full{
+    width: 100%;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 16px 26px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.btn-primary-full:hover {
+  background-color: #9c4164;
+  color: black;
+  transform: scale(1.10);
+  box-shadow: 0 9px 21px rgba(78, 71, 255, 0.4);
+}
+.pju-title{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    margin-bottom: 40px;
 }
