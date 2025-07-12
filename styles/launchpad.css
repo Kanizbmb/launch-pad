@@ -85,7 +85,7 @@
 
 /* header styles  */
 .header{
-    background-image: linear-gradient(rgba(245, 248, 255, 0.6), rgba(245, 248, 255, 0.6)), url('../public/Assets/Hero-bg.png');
+    background-image: linear-gradient(rgba(245, 248, 255, 0.6), rgba(245, 248, 255, 0.6)), url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
