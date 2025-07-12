@@ -151,3 +151,28 @@ nav{
 .action-image img{
     border-radius: 20%;
 }
+/* productive active user style  */
+.join-user{
+   width: 1140px;
+   height: 306px;
+   background-color: #e9e3e3;
+   margin: 150px auto;
+   border-radius: 7%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+.pju-items{
+   display: flex;
+   justify-content: space-evenly;
+}
+.user-item-title{
+   font-weight: bold;
+   font-size: 80px;
+   color: rgba(78, 71, 255, 1);
+}
+.pju-description{
+   font-size: 20px;
+   color: rgba(0, 0, 0, 0.5);
+}
