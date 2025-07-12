@@ -271,3 +271,42 @@ nav{
    height: 364px;
    border-radius: 5%;
 }
+/* started free section style  */
+input[type="email"], input[type="text"], textarea{
+   height: 64px;
+   border-radius: 5px;
+   background-color: rgb(221, 204, 204);
+   display: block;
+   width: 100%;
+   padding: 10px 20px;
+   margin-top: 10px;
+   margin-bottom: 24px;
+   border: none;
+}
+.started-free{
+   width: 1140px;
+   height: 632px;
+   margin: 0 auto;
+}
+.started-free-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.started-free-one{
+   width: 550px;
+}
+.started-free-title{
+   font-weight: bold;
+   font-size: 97px;
+   color: #000000;
+}
+.started-free-form{
+   width: 500px;
+}
+.label-input-field{
+   font-weight: 600;
+   font-size: 18px;
+   color: #000000;
+   padding-bottom: 2px;
+}
