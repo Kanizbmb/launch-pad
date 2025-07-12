@@ -240,3 +240,34 @@ nav{
  color: rgba(179, 179, 179, 1);
  font-size: 14px;
 }
+/* webflow conf style  */
+.webflow{
+   width: 1140px;
+   height: 660px;
+   margin: 150px auto;
+   border-radius: 5%;
+   text-align: center;
+   background-color: #e9e3e3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.webflow-title{
+   font-weight: bold;
+   font-size: 50px;
+   color: #000000;
+   margin-bottom: 10px;
+}
+.webflow-description{
+   font-size: 20px;
+   color: rgba(0, 0, 0, 0.5);
+   margin-bottom: 10px;
+}
+.webflow-content button{
+   margin-bottom: 20px;
+}
+.webflow-content img{
+   width: 840px;
+   height: 364px;
+   border-radius: 5%;
+}
